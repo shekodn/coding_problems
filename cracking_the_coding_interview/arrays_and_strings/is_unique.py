@@ -11,7 +11,7 @@ def is_unique(sentence):
     # Assumes is ascii 128
     ascii = [False] * 128
 
-    if len(sentence) > 128
+    if len(sentence) > 128:
         return False
 
     for char in sentence:
